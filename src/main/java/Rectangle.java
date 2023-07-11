@@ -5,7 +5,6 @@ public class Rectangle {
     private int width;
     private int length;
 
-
     //CONSTRUCTOR
 
     public Rectangle(int width, int length){
@@ -16,11 +15,11 @@ public class Rectangle {
     //BEHAVIOURS
 
     public int calcArea(){
-        return this.width*this.length;
+        return width*length;
     }
 
     public boolean checkSqr(){
-        return this.width==this.length;
+        return width==length;
     }
 
 
