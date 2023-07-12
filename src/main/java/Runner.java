@@ -22,10 +22,10 @@ public class Runner {
         System.out.println("The rectangle2 has an area of " + area2);
 
         // 3. Check if your rectangle is actually a square
-        boolean isRectangle1 = rectangle1.checkSqr();
+        boolean isRectangle1 = rectangle1.isSqr();
         System.out.println("Object is a square (true/false): " + isRectangle1);
 
-        boolean isRectangle2 = rectangle2.checkSqr();
+        boolean isRectangle2 = rectangle2.isSqr();
         System.out.println("Object is a square (true/false): " + isRectangle2);
 
     }

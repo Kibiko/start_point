@@ -18,7 +18,7 @@ public class Rectangle {
         return this.width*this.length;
     }
 
-    public boolean checkSqr(){
+    public boolean isSqr(){
         return this.width==this.length;
     }
 
