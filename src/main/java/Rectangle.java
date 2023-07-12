@@ -15,11 +15,11 @@ public class Rectangle {
     //BEHAVIOURS
 
     public int calcArea(){
-        return width*length;
+        return this.width*this.length;
     }
 
     public boolean checkSqr(){
-        return width==length;
+        return this.width==this.length;
     }
 
 

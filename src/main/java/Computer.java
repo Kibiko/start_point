@@ -15,19 +15,19 @@ public class Computer {
     //BEHAVIOURS
 
     public int getStorageSpace(){
-        return storageSpace;
+        return this.storageSpace;
     }
 
     public void addStorage(int storage){
-        storageSpace += storage;
+        this.storageSpace += storage;
     }
 
     public void setPrinterName(String printer){
-        printerName = printer;
+        this.printerName = printer;
     }
 
     public String getPrinterName(){
-        return printerName;
+        return this.printerName;
     }
 
     public void printMessage(String message){

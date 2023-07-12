@@ -15,14 +15,14 @@ public class ShoppingTrolley {
     //BEHAVIOURS
 
     public void addItem(String product){
-        shopping.add(product);
+        this.shopping.add(product);
     }
 
     public int itemCount(){
-        return shopping.size();
+        return this.shopping.size();
     }
 
     public boolean checkItem(String product){
-        return shopping.contains(product);
+        return this.shopping.contains(product);
     }
 }
